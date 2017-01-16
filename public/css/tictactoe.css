@@ -1,0 +1,57 @@
+.valid .error,
+.invalid .game {
+	display: none;
+}
+
+#log {
+	background-color: #eee;
+	padding: 20px;
+}
+#log em,
+#log strong {
+	font-size: 12px;
+	color: gray;
+	padding-right: 10px;
+}
+#log pre {
+	font-size: 12px;
+}
+
+.run {
+	width: 225px;
+	height: 225px;
+	border: 1px solid #999;
+	box-sizing: content-box;
+	margin: 20px auto;
+}
+.run button {
+	width: 75px;
+	height: 75px;
+	border: 1px solid #999;
+	box-sizing: border-box;
+	float: left;
+	font-size: 24px;
+	background-color: white;
+}
+.run button:hover { background-color: #ddd; }
+.run button:active { background-color: #447bcd; }
+
+#game-status {
+	text-align: center;
+}
+
+h1, p {
+	display: none;
+}
+
+.wait .wait,
+.you .you,
+.watch .watch,
+.won .won,
+.lost .lost,
+.tied .tied,
+.won p,
+.lost p,
+.tied p {
+	display: block;
+}
