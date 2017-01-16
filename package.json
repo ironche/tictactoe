@@ -10,7 +10,7 @@
   "scripts": {
     "prestart": "npm install",
     "start": "node index.js",
-    "dev": "nodemon -w src index.js -e js,json"
+    "dev": "nodemon --watch app --watch public index.js -e js,json,css,html"
   },
   "private": true,
   "license": "MIT",
